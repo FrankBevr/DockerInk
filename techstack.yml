@@ -1,0 +1,41 @@
+repo_name: FrankBevr/DockerInk
+report_id: 7fafe0821d149912ff6af89318a95128
+repo_type: Public
+timestamp: '2023-11-10T17:53:27+00:00'
+requested_by: FrankBevr
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  version: 1.7.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: FrankBevr
+  last_updated_on: 2023-08-10 17:13:44.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
